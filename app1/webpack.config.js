@@ -40,6 +40,7 @@ module.exports = {
       remotes: {
         app2: "app2@http://localhost:3002/remoteEntry.js",
       },
+      // 远程加载的模块对应的依赖使用本地项目的依赖
       shared: {
         react: { singleton: true },
         "react-dom": { singleton: true }
